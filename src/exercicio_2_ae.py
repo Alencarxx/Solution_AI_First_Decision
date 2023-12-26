@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Carregando o conjunto de dados
-df = pd.read_csv('C:\\Users\\Alencar Porto\\src\\data\\First_Desafio.csv', sep=';', encoding='utf-8')
+df = pd.read_csv('./data/First_Desafio.csv', sep=';', encoding='utf-8')
 
 # Filtrando empresas relacionadas ao tratamento de água com base nas palavras-chave fornecidas
 keywords = ['solutions on waste and water', 'water', 'Improve water quality', 'water efficiency use', 'water contamination', 'water for human consumption', 'water resources']

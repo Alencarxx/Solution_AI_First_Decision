@@ -1,13 +1,14 @@
 import pandas as pd
+import io
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.svm import SVC
 from sklearn.pipeline import make_pipeline
 from sklearn.metrics import classification_report
-import io
+
 
 # Carregando o conjunto de dados
-file_path = 'C:\\Users\\Alencar Porto\\src\\data\\First_Desafio.csv'
+file_path = './data/First_Desafio.csv'
 with io.open(file_path, 'r', encoding='utf-8') as file:
     # Detectando automaticamente o número correto de colunas
     first_line = file.readline().strip()

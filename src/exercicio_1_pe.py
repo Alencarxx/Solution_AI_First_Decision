@@ -1,4 +1,5 @@
 import pandas as pd
+import chardet
 from io import StringIO
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -20,7 +21,7 @@ data = []
 valid_lines = []
 
 # Caminho do arquivo
-file_path = 'C:\\Users\\Alencar Porto\\src\\data\\First_Desafio_2.csv'
+file_path = './data/First_Desafio_2.csv'
 
 # Detectar a codificação do arquivo
 encoding = detect_encoding(file_path)
@@ -52,9 +53,9 @@ df = df.iloc[:, :8]
 df.columns = ['name', 'description', 'employees', 'total_funding', 'city', 'subcountry', 'lat', 'lng']
 
 # Imprima as linhas validadas
-print("Linhas validadas:")
-for valid_line in valid_lines:
-    print(valid_line.strip())
+#print("Linhas validadas:")
+#for valid_line in valid_lines:
+#    print(valid_line.strip())
 
 # Palavras-chave para filtrar
 keywords = ['solutions on waste and water', 'water quality', 'water efficiency use', 'water contamination', 'water for human consumption', 'water resources']
