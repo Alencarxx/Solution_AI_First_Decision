@@ -1,15 +1,20 @@
-import subprocess
+# app/index.py
+import sys
+from pathlib import Path
 
-def run_exercicio(exercicio):
-    command = f"docker run {exercicio}"
-    subprocess.run(command, shell=True)
+# Adicione o diretório principal ao sys.path
+sys.path.append(str(Path(__file__).resolve().parents[1]))
 
-# Executar o exercício 1
-run_exercicio("exercicio_1_pe")
+from src.exercicio_2_ae import exercicio_2_ae
+from src.exercicio_1_pe_v2 import exercicio_1_pe
 
-# Executar o exercício 2
-run_exercicio("exercicio_2_ae")
 
-# Executar os testes automatizados
-subprocess.run("docker run test_exercicio_1", shell=True)
-subprocess.run("docker run test_exercicio_2", shell=True)
+def main():
+    print("Executando o projeto...")
+
+    # Chame as funções ou lógica principal dos exercícios aqui
+    exercicio_1_pe()
+    exercicio_2_ae()
+    
+if __name__ == "__main__":
+    main()

@@ -5,9 +5,6 @@ FROM python:3
 LABEL maintainer="Alencar"
 
 #------------------------ Configuração do diretório de trabalho
-WORKDIR /src
-WORKDIR /tests
-WORKDIR /data
 WORKDIR /app
 
 #------------------------ Copie os arquivos necessários para o contêiner
