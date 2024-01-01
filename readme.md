@@ -37,6 +37,10 @@ baixe o repositorio na sua maquina local,
 crie um diretorio solucionAIAlencar,
 abra CMD execute o comando Docker build -t solutionAIAlencar .
 
+Docker build -t solutionai .
+
+Docker run soltuionai 
+
 ## 🛠️ Construído com
 
 Mencione as ferramentas que você usou para criar seu projeto
@@ -50,7 +54,7 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 Há todos os que me ajudaram até aqui:
 
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/alencarxx)
+* **Alencar Porto** - *Trabalho total* - [um desenvolvedor](https://github.com/alencarxx)
 
 ## 🎁 Expressões de gratidão
 
@@ -65,7 +69,7 @@ Há todos os que me ajudaram até aqui:
   E não nos deixeis errar identação
   Mas livrai-nos das funções recursivas
   A main() 📢;
-* Happy-hour uma cerveja com amigos 🍺;
+* Happy-hour coms amigos momentos especiais 🍺;
 
 
 ---
