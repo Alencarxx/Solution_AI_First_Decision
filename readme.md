@@ -50,7 +50,7 @@ Mencione as ferramentas que você usou para criar seu projeto
 * [GIT](https://git-scm.com/) - Git
 
 
-## ✒️ Autores
+## ✒️ Autor
 
 Há todos os que me ajudaram até aqui:
 
