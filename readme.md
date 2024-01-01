@@ -69,7 +69,7 @@ Há todos os que me ajudaram até aqui:
   E não nos deixeis errar identação
   Mas livrai-nos das funções recursivas
   A main() 📢;
-* Happy-hour coms amigos momentos especiais 🍺;
+* Happy-hour com os amigos em momentos especiais 🍺;
 
 
 ---
